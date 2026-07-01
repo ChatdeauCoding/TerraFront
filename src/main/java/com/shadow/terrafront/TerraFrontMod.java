@@ -1,5 +1,6 @@
 package com.shadow.terrafront;
 
+import com.shadow.terrafront.block.ModBlocks;
 import com.shadow.terrafront.item.ModItems;
 import org.slf4j.Logger;
 
@@ -48,6 +49,7 @@ public class TerraFrontMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -73,6 +75,9 @@ public class TerraFrontMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModItems.MYSTICAL_ACORN);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.DARK_ORE);
         }
     }
 
