@@ -12,6 +12,8 @@ public class ModItems {
     public static final DeferredItem<Item> MYSTICAL_ACORN = ITEMS.register("mystical_acorn",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> RHODIUM = ITEMS.register("rhodium",
+            () -> new Item(new Item.Properties()));
 
 
 
