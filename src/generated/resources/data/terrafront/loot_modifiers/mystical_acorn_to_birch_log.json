@@ -1,0 +1,14 @@
+{
+  "type": "terrafront:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:birch_log",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 1.0E-4,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "terrafront:mystical_acorn"
+}

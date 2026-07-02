@@ -1,0 +1,15 @@
+{
+  "entries": [
+    "terrafront:mystical_acorn_to_acacia_log",
+    "terrafront:mystical_acorn_to_birch_log",
+    "terrafront:mystical_acorn_to_dark_oak_log",
+    "terrafront:mystical_acorn_to_spruce_log",
+    "terrafront:mystical_acorn_to_oak_log",
+    "terrafront:mystical_acorn_to_cherry_log",
+    "terrafront:mystical_acorn_to_mangrove_log",
+    "terrafront:mystical_acorn_to_jungle_log",
+    "terrafront:mystical_acorn_to_crimson_stem",
+    "terrafront:mystical_acorn_to_warped_stem"
+  ],
+  "replace": false
+}

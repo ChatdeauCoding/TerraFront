@@ -3,6 +3,7 @@ package com.shadow.terrafront;
 import com.shadow.terrafront.block.ModBlocks;
 import com.shadow.terrafront.item.ModCreativeModeTabs;
 import com.shadow.terrafront.item.ModItems;
+import com.shadow.terrafront.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,6 +54,8 @@ public class TerraFrontMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
 
         // Register the item to a creative tab
