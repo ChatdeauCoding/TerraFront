@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MYSTICAL_ACORN.get());
                         output.accept(ModBlocks.DARK_ORE.get());
                         output.accept(ModItems.RHODIUM.get());
+                        output.accept(ModItems.ARSENIC.get());
+                        output.accept(ModItems.CHROME.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

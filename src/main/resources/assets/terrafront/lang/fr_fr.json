@@ -1,6 +1,13 @@
 {
-  "item.terrafront.mystical_acorn" : "Gland Mystique",
+  "item.terrafront.mystical_acorn": "Gland Mystique",
   "item.terrafront.rhodium": "Rhodium",
-  "block.terrafront.dark_ore" : "Minerai Sombre",
-  "creativetab.terrafront.rare_items" : "Objets Rares"
+  "item.terrafront.arsenic": "Arsenic",
+  "item.terrafront.chrome": "Chrome",
+
+
+  "block.terrafront.dark_ore": "Minerai Sombre",
+
+
+
+  "creativetab.terrafront.rare_items": "Objets rares"
 }

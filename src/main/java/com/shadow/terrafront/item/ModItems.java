@@ -15,6 +15,11 @@ public class ModItems {
     public static final DeferredItem<Item> RHODIUM = ITEMS.register("rhodium",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> ARSENIC = ITEMS.register("arsenic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHROME = ITEMS.register("chrome",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus){

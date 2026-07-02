@@ -1,6 +1,13 @@
 {
   "item.terrafront.mystical_acorn": "Mystical Acorn",
   "item.terrafront.rhodium": "Rhodium",
+  "item.terrafront.arsenic": "Arsenic",
+  "item.terrafront.chrome": "Chrome",
+
+
   "block.terrafront.dark_ore": "Dark Ore",
+
+
+
   "creativetab.terrafront.rare_items": "Rare Items"
 }
