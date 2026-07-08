@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terrafront:launcher_platform"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "terrafront:blocks/launcher_platform"
+}

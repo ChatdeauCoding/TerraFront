@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "terrafront:block/launcher_platform"
+    }
+  }
+}

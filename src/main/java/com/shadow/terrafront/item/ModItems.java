@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHROME = ITEMS.register("chrome",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TIER4_ITEM = ITEMS.register("missile_t4_item",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
 
 

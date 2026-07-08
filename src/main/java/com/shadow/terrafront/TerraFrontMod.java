@@ -1,6 +1,7 @@
 package com.shadow.terrafront;
 
 import com.shadow.terrafront.block.ModBlocks;
+import com.shadow.terrafront.entity.ModEntities;
 import com.shadow.terrafront.item.ModCreativeModeTabs;
 import com.shadow.terrafront.item.ModItems;
 import com.shadow.terrafront.loot.ModLootModifiers;
@@ -56,6 +57,9 @@ public class TerraFrontMod {
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModBlocks.BLOCK_ENTITIES.register(modEventBus);
+
+        ModEntities.ENTITIES.register(modEventBus);
 
 
         // Register the item to a creative tab

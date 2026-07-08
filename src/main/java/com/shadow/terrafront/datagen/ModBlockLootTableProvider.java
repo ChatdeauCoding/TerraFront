@@ -33,6 +33,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+
+        dropSelf(ModBlocks.LAUNCHER_PLATFORM.get());
+
         LootItemCondition.Builder hasSilkTouch = MatchTool.toolMatches(
                 ItemPredicate.Builder.item().withSubPredicate(
                         ItemSubPredicates.ENCHANTMENTS,

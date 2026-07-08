@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.DARK_ORE);
+        blockWithItem(ModBlocks.LAUNCHER_PLATFORM);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

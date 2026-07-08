@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RHODIUM.get());
                         output.accept(ModItems.ARSENIC.get());
                         output.accept(ModItems.CHROME.get());
+                        output.accept(ModBlocks.LAUNCHER_PLATFORM);
                     }).build());
 
     public static void register(IEventBus eventBus){

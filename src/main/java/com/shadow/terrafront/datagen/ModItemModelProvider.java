@@ -17,5 +17,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RHODIUM.get());
         basicItem(ModItems.ARSENIC.get());
         basicItem(ModItems.CHROME.get());
+        basicItem(ModItems.TIER4_ITEM.get());
     }
 }

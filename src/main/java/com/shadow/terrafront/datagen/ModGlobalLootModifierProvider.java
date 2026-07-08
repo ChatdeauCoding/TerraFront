@@ -24,59 +24,59 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
         this.add("mystical_acorn_to_acacia_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.ACACIA_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_birch_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.BIRCH_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_dark_oak_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.DARK_OAK_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_spruce_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.SPRUCE_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
         this.add("mystical_acorn_to_oak_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.OAK_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_cherry_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CHERRY_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
         this.add("mystical_acorn_to_mangrove_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.MANGROVE_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_jungle_log",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.JUNGLE_LOG).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_crimson_stem",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CRIMSON_STEM).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
         this.add("mystical_acorn_to_warped_stem",
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.WARPED_STEM).build(),
-                        LootItemRandomChanceCondition.randomChance(0.0001f).build()
+                        LootItemRandomChanceCondition.randomChance(0.01f).build()
                 }, ModItems.MYSTICAL_ACORN.get()));
 
 
